@@ -1,0 +1,77 @@
+/* .card{
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px grey;
+    animation: opacity 4s ease infinite;
+    
+}
+@keyframes opacity {
+    
+    50%{
+        
+        transform: scale(1) ;
+        
+    }
+    100%{
+        
+        transform: scale(1.5);
+    }
+} */
+.card{
+    width: 99%;
+    height: 50px;
+    border: 1px solid red;
+
+}
+.block{
+    width: 0;
+    height: 50px;
+    animation: opacity 5s cubic-bezier(0.24, 0.34, 0.42, 0.6) infinite;
+    background-color: red;
+}
+@keyframes opacity{
+    100%{
+        width: 100%;
+    }
+  
+}
+
+
+
+/* @keyframes opacity{
+    25%{
+        transform: translateY(500px);
+        background-color: red;
+    }
+    40%{
+        background-color: white;
+    }
+    50%{
+        transform: translateY(500px) translateX(1000px) ;
+        background-color: red;
+    }
+    75%{
+        transform:  translateX(1000px) translateY(0);
+        background-color: white;
+    }
+    85%{
+        background-color: red;
+    }
+    100%{
+        transform: translateX(0);
+        background-color: white;
+    }
+
+   
+} */
+
+/* @keyframes opacity{
+    50%{
+        transform: translateX(1000px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+} */
+
